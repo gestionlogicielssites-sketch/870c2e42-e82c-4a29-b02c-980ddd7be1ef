@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { TrendingUp } from "lucide-react";
-import thierryHero from "@/assets/thierry-hero.jpg";
+import heroImage from "@/assets/photo-site-export.jpeg";
 
 const Hero = () => {
   return (
@@ -60,7 +60,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl">
               <img 
-                src={thierryHero} 
+                src={heroImage} 
                 alt="Thierry Robert - Expert Marketing International"
                 className="w-full h-[600px] object-cover"
               />
